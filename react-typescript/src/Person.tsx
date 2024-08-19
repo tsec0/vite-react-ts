@@ -50,7 +50,7 @@ const Person = (props: PersonProps): JSX.Element => {
                 </>
             )}
             <button // style sheet showld be created
-                style={{marginLeft: "30px"}} 
+                // style={{marginLeft: "30px"}} 
                 type="button"
                 onClick={toggleBio}>{isShownBio ? "Скрий Биография" : "Покажи Биография"}</button>
         </div>
